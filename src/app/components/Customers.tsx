@@ -6,7 +6,7 @@ import React from 'react';
 
 function Customers() {
     return (
-        <section className="py-20 px-8 md:px-16 text-white">
+        <section className="py-20 px-8 md:px-16 text-gray-400">
             <div className="grid md:grid-cols-2 gap-12 items-center">
                 {/* Left side - map placeholder */}
                 <div className="flex justify-center">
@@ -25,7 +25,7 @@ function Customers() {
                 {/* Right side - text content */}
                 <div>
                     <motion.p
-                        className="text-lime-400 text-sm font-semibold uppercase tracking-widest mb-2"
+                        className="text-green-500 text-sm font-semibold uppercase tracking-widest mb-2"
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.4 }}
@@ -57,16 +57,16 @@ function Customers() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.4 }}
                         >
-                            <h3 className="text-3xl md:text-4xl font-bold text-lime-400">2K</h3>
+                            <h3 className="text-3xl md:text-4xl font-bold text-green-500">2K</h3>
                             <p className="text-gray-400">Customers</p>
                         </motion.div>
 
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.6 }}
+                            transition={{ delay: 0.4 }}
                         >
-                            <h3 className="text-3xl md:text-4xl font-bold text-lime-400">100%</h3>
+                            <h3 className="text-3xl md:text-4xl font-bold text-green-500">100%</h3>
                             <p className="text-gray-400">Satisfaction</p>
                         </motion.div>
                     </div>

@@ -43,7 +43,7 @@ function CTA() {
                 viewport={{ once: true }}
             >
                 <motion.h2 
-                    className="text-4xl md:text-6xl font-bold text-white leading-tight"
+                    className="text-4xl md:text-6xl font-bold text-gray-400 leading-tight"
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
@@ -59,7 +59,7 @@ function CTA() {
                     viewport={{ once: true }}
                 >
                     <Link href="/ContactUs">
-                        <Button className="bg-purple-600 hover:bg-purple-700 px-10 py-6 rounded-full text-white text-xl font-semibold">
+                        <Button className="bg-green-500 hover:bg-green-500  px-10 py-6 rounded-full  text-xl font-semibold">
                             Contact Us
                         </Button>
                     </Link>

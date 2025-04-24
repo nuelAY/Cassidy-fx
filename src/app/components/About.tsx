@@ -42,7 +42,7 @@ function About() {
                 <p className="text-sm text-yellow-400 uppercase font-semibold tracking-widest mb-2">
                     About CassidyFX
                 </p>
-                <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-snug">
+                <h2 className="text-3xl md:text-5xl font-bold text-gray-400 mb-6 leading-snug">
                     Trade with a New <br /> Way in the World
                 </h2>
                 <p className="text-gray-400 text-base leading-relaxed">

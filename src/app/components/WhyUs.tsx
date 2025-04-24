@@ -21,9 +21,9 @@ function WhyUs() {
     ];
 
     return (
-        <section id="whyus" className="py-20 px-8 md:px-16 text-center text-white">
+        <section id="whyus" className="py-20 px-8 md:px-16 text-center text-gray-400">
             <motion.h3
-                className="text-sm font-semibold text-indigo-400 mb-2 uppercase tracking-widest"
+                className="text-sm font-semibold text-green-500 mb-2 uppercase tracking-widest"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
@@ -59,7 +59,7 @@ function WhyUs() {
                         transition={{ delay: idx * 0.2 }}
                     >
                         <Card className={`p-6 rounded-2xl shadow-lg ${
-                            idx === 1 ? 'bg-lime-400 text-black' : 'bg-gray-900 text-white'
+                            idx === 1 ? 'bg-green-500 text-black' : 'bg-gray-900 text-gray-400'
                         }`}>
                             <CardContent>
                                 <div className="mb-4">

@@ -28,7 +28,7 @@ function Hero() {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
-                className="text-white text-4xl md:text-6xl font-bold leading-tight relative z-10"
+                className="text-gray-400 text-4xl md:text-6xl font-bold leading-tight relative z-10"
             >
                 The Future of FX <br /> Trading
             </motion.h1>
@@ -42,7 +42,7 @@ function Hero() {
             >
 
                 <Link href="/ContactUs" passHref>
-                    <Button className="bg-purple-600 hover:bg-[#6a4ef7] text-white font-semibold px-6 py-3 rounded-lg">
+                    <Button className="bg-green-500 hover:bg-green-500  font-semibold px-6 py-3 rounded-lg">
                         Contact Us
                     </Button>
                 </Link>

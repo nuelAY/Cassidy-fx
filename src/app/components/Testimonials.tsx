@@ -26,24 +26,25 @@ function Testimonials() {
     return (
         <section id="testimonials" className="py-20 px-8 md:px-16 text-center">
             <motion.h2
-                className="text-3xl md:text-5xl font-bold mb-2 text-white"
+
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6 }}
+                className="text-sm font-bold text-center text-green-500"
             >
                 TESTIMONIALS
             </motion.h2>
-            
-            <motion.h3
-                className="text-xl md:text-2xl mb-10 text-white"
+
+            <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
+                className="text-gray-400 font-bold text-4xl mb-10 max-w-xl mx-auto text-center"
             >
-                What people say
-            </motion.h3>
+                What People Say
+            </motion.p>
 
-            <motion.p 
+            <motion.p
                 className="text-gray-300 max-w-3xl mx-auto mb-12"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -61,7 +62,7 @@ function Testimonials() {
                         viewport={{ once: true }}
                         transition={{ delay: idx * 0.2 }}
                     >
-                        <Card className="bg-gray-800 text-white p-6 rounded-2xl shadow-lg min-h-[250px]">
+                        <Card className="bg-gray-800 text-gray-400 p-6 rounded-2xl shadow-lg min-h-[250px]">
                             <CardContent className="flex flex-col h-full">
                                 <div className="flex justify-center mb-4 text-yellow-400">
                                     {[...Array(5)].map((_, i) => (
